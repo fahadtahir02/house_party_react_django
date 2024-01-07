@@ -1,9 +1,10 @@
+# Create your models here.
 from django.db import models
 import string, random 
 
 
 
-# Create your models here.
+
 
 
 #Logic creating database of a room

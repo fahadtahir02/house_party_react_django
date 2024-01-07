@@ -23,5 +23,5 @@ from django.urls import path, include
 #All main urls endpoints will be recieved here first then routed where they should be. This is the main hub per say. 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('api.urls'))
+    path('api/', include('api.urls'))
 ]
