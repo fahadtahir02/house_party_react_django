@@ -16,6 +16,6 @@ from rest_framework import generics # allow us to create a class that inherits f
 ##Creating api view
 
 
-class RoomView(generics.CreateAPIView):
+class RoomView(generics.ListAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
